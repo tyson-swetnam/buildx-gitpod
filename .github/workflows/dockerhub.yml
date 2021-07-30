@@ -31,7 +31,7 @@ jobs:
           context: latest
           file: Dockerfile
           push: true
-          tags: alpine:latest
+          tags: tswetnam/alpine:latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}     
